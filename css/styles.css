@@ -1,0 +1,167 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:900|Open+Sans:400,700);
+
+*,
+a,
+abbr,
+article,
+body,
+em,
+figcaption,
+figure,
+footer,
+h1,
+header,
+html,
+img,
+li,
+main,
+p,
+strong,
+ul {
+    background: transparent;
+    border: 0;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+
+a,
+abbr {
+    text-decoration: none;
+}
+
+abbr {
+    cursor: help;
+}
+
+article,
+figcaption,
+figure,
+footer,
+header,
+main {
+    display: block;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+em {
+    font-style: normal;
+}
+
+h1,
+h2,
+strong {
+    font-weight: normal;
+}
+
+img {
+    vertical-align: middle;
+}
+
+li {
+    list-style: none;
+}
+
+.card {
+    background: #45433d;
+    color: #b3ada1;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    text-align: left;
+}
+
+.card__header {
+    padding: 1rem;
+}
+
+.card__header__heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+}
+
+.card__content {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.card__content__article {
+    background: #b3ada1;
+    color: #45433d;
+    border-radius: 0.5rem;
+    left: 50%;
+    padding: 1rem;
+    width: 18.75rem;
+}
+
+.card__content__heading {
+    font-size: 1.25em;
+    padding: 0 0.5rem 1rem 1rem;
+}
+
+.card__content__image {
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.card__content__caption {
+    background: #45433d;
+    border-radius: 0 0 0.5rem 0.5rem;
+    color: #b3ada1;
+    line-height: 1.5;
+    margin: 0 0 1rem 0;
+    padding: 0.5rem;
+}
+
+.card__content__item {
+    line-height: 1.5;
+}
+
+.card__content__paragraph {
+    line-height: 1.5;
+    padding: 0.5rem 0 0 0;
+}
+
+.card__footer {
+    margin: 1rem 0;
+}
+
+.card__footer__paragraph {
+    padding: 0 1rem;
+}
+
+.card__footer__link {
+    color: #3263ca;
+}
+
+.card__footer__abbreviation {
+    border-bottom: 0.0625rem dashed #5fb4f2;
+}
+
+.-text-black {
+    font-weight: 900;
+}
+
+.-text-bold {
+    font-weight: 700;
+}
+
+.-text-center {
+    text-align: center;
+}
+
+.-text-italic {
+    font-style: italic;
+}
+
+.-text-small {
+    font-size: 0.75em;
+}
